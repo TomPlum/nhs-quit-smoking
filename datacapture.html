@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>NHS: Data-Capture</title>
+		<link rel="shortcut icon" href="images/favicon.png">
+		<link rel="shortcut icon" href="images/favicon.png">
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen"/> 
+		<script type="text/javascript" src="filename.js"></script>
+		<meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
+        <link href="http://fonts.googleapis.com/css?family=Oswald|Open+Sans" rel="stylesheet" type="text/css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+	</head>
+	
+	<body>
+    		<div id="LogoHeader">
+            	<a href="index.html"><img id="logo" src="images/NHS Logo.png" alt="NHS"></a>
+            </div>
+    	<div id="nav">
+        	<ul id="navul">
+            	<li class="navli"><a class="nava" href="index.html">HOME</a></li>
+                <li class="navli"><a class="nava" href="gallery.html">GALLERY</a></li>
+                <li class="navli"><a class="nava" href="stats.html">STATISTICS</a></li>
+                <li class="navli"><a class="nava-active" href="datacapture.html">DATA CAPTURE</a></li>
+                <li class="navli"><a class="nava" href="login.php">DATA SEARCH</a></li>
+            </ul>
+        </div>
+        <div id="content">
+        <div class="datacapturediv">
+			<h1 class="header1">Data Collection Form</h1>
+			<div id="formdiv">
+        	<form>
+				<p class="FieldHeading">First Name*:</p><br>
+				<p class="FieldHeading">Last Name*:</p><br>
+				<p class="FieldHeading">Address*:</p><br>
+				<p class="FieldHeading">Email*:</p><br>
+				<p class="FieldHeading">D.O.B*:</p><br>
+				<p class="FieldHeading">Assessment Date*:</p><br>
+				<p class="FieldHeading">Weight*:</p><br>
+				<p class="FieldHeading">Height*:</p><br>
+				<p class="FieldHeading">Blood Pressure*:</p><br><br>
+				<p class="FieldHeading">Sex*:</p><br>
+				<p class="FieldHeading">Smoker?*:</p><br>
+				<p class="FieldHeading">NHS Number (If Known):</p><br>
+			</form>
+			</div>
+			<div id="fields">	
+				<form action="php/datacapture.php" method="post">
+				<input class="field" type="text" name="forename" placeholder="Your First Name" required><br>
+				<input class="field" type="text" name="surname" placeholder="Your Last Name" required><br>
+				<input class="field" type="text" name="address" placeholder="House No. & Street" required><br>
+				<input class="field" type="text" name="email" placeholder="address@provider.com" required><br>
+				<input class="field" type="text" name="dateofbirth" placeholder="DD/MM/YYYY" required><br>
+				<input class="field" type="text" name="assessmentdate" placeholder="DD/MM/YYYY" required><br>
+				<input class="field" type="text" name="weight" placeholder="Enter in Kg" required><br>
+				<input class="field" type="text" name="height" placeholder="Enter in cm" required><br>
+				<input class="field" type="text" name="systolic" placeholder="Systolic mm/Hg" required>
+                <input class="field" type="text" name="diastolic" placeholder="Diastolic mm/Hg" required><br>
+				<input class="field" type="radio" name="sex" value="Male"><p class="FieldHeading" required>Male</p>
+				<input class="field" type="radio" name="sex" value="Female"><p class="FieldHeading" required>Female</p>
+				<input class="field" type="radio" name="sex" value="Other"><p class="FieldHeading" required>Other</p><br>
+				<input class="field" type="radio" name="smoker" value="Yes"><p class="FieldHeading" required>Yes</p>
+				<input class="field" type="radio" name="smoker" value="No"><p class="FieldHeading" required>No</p><br>
+				<input class="field" type="text" placeholder="7 Digit Number" name="nhsnumber"><br>
+				<input id="submit" type="submit" name="submit"><br>
+				</form>
+			</div>
+        </div>
+        </div>
+	</body>
+	
+</html>

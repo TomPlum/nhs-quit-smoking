@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+.para {text-align: center; font-family: 'Open Sans'; font-size: 18px;}
+
+/*Navigation Bar*/
+#logo {width: 200px; margin-top: 5px;}
+#LogoHeader {margin-left: 250px; margin-right: 250px; background-color: rgb(0,114,198)}
+
+#nav {background-color: rgb(0, 114, 198); height: 44px; margin-left: 250px; margin-right: 250px;}
+.navli {display: inline; font-family: 'Open Sans'; color: white; text-align: center; padding-right: 50px; border-right: 1px solid white; padding-left: 25px;}
+.navli:last-child {padding-right: 0px; border-right: none;}
+.navli:first-child {padding-left: 0px;}
+.nava {text-decoration: none; color: white; font-weight: bold;}
+.nava:hover {color: #bfbfbf; text-decoration: underline;}
+.nava-active {color: white; font-weight: bold; text-decoration: underline;}
+#navul {padding-top: 10px; text-align: center;}
+
+/*Content*/
+#content{border-left: 3px solid rgb(0, 114, 198); height: 2000px; left: 50%; right: 50%; margin-left: 250px; border-right: 3px solid rgb(0, 114, 198); margin-right: 250px;}
+#banner {background-color: white; height: 200px;  border-bottom: 3px solid rgb(0,114,198);}
+.header1 {font-family: 'Open Sans'; text-align: center; color: rgb(0,114,198); margin-top: 5px; text-decoration: none;}
+.header2 {font-family: 'Open Sans'; text-align: left; text-decoration: underline; color: rgb(0,114,198); margin-left: 48px;}
+.indexp {font-family: 'Open Sans'; margin-left: 50px; margin-right: 50px; text-align: left;}
+div ul li {margin-left: 30px; font-family: 'Open Sans';}
+#indexbanner {margin-left: auto; margin-right: auto; display: block;}
+
+/*DATA CAPTURE*/
+#formdiv {margin-left: 5px; float: left; margin-right: 15px; text-align: right;}
+.field {border: 1px solid rgb(0,114,198); margin-bottom: 3px; text-align: center;}
+.FieldHeading {font-family: 'Open Sans'; display: inline;}
+.fields {float: left; margin-top: 2px;}
+#bmidiv {position: relative; top: -200px; left: 480px; }
+#bmifield {padding: 5px; border: 1px solid rgb(0,114,198)}
+#submit {padding: 10px 22px; border: 2px solid rgb(0,114,198); text-align: center; position: relative; display: block; font-size: 16px; color: white; background-color: rgb(0,114,198);  -webkit-transition-duration: 0.4s; transition-duration: 0.4s; cursor: pointer; margin-top: 25px; border-radius: 5px; top: 50%; left: 62%;}
+#submit:hover {background-color: white; color: rgb(0,114,198);}
+.datacapturediv {margin: 0 auto; width: 30%; padding: 15px; text-align: center; left: 50%; right: 50%;}
+#bloodpressure {float: left;}
+
+/*GALLERY*/
+.fotorama {margin-left: 270px;}
+
+/*DATA SEARCH*/
+#login-container {border: 2px solid rgb(0,114,198); margin: 0 auto; width: 20%; padding: 15px; text-align: center; left: 50%; right: 50%;}
+.loginfield {border: 1px solid rgb(0,114,198); margin-bottom: 3px; text-align: center;}
+#loginbutton {-webkit-transition-duration: 0.4s; transition-duration: 0.4s; padding-left: 10px; padding-right: 10px; padding-top: 3px; padding-bottom: 3px; border: 1px solid rgb(0,114,198); background-color: rgba(204,204,204,1.00); border-radius: 5px;}
+#loginbutton:hover {padding-left: 10px; padding-right: 10px; padding-top: 3px; padding-bottom: 3px; border: 1px solid green; background-color: rgb(0,114,198); border-radius: 5px; box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}
+
+/*STATS*/
+#statsul {text-align: center; font-family: 'Open Sans'; text-decoration: none; list-style: none;}
+.statsli {padding-bottom: 15px; padding-top: 15px; border-bottom: 1px solid rgba(188,188,188,1.00); width: 900px; left: 50%; right: 50%; margin: 0 auto;}
+.statsli:last-child {border-bottom: none;}
+
+/*LOGIN ERROR*/
+#error {text-align: center; color: red; font-family: 'Open Sans'; font-weight: bold; border: 1px solid red; margin-left: 100px; margin-right: 100px; padding: 8px;}
+#BackButton {padding: 16px 32px; border: 2px solid rgb(0,114,198); text-align: center; position: relative; display: inline block; font-size: 16px; color: white; background-color: rgb(0,114,198);  -webkit-transition-duration: 0.4s; transition-duration: 0.4s; cursor: pointer; margin: -80px; margin-top: 25px; border-radius: 5px; top: 50%; left: 50%;}
+#BackButton:hover {background-color: white; color: rgb(0,114,198);}
+
+/*DB SEARCH 'search2.html'*/
+#dbsearch {float: left; margin-left: 2px; display: inline;}
+#dbsearch2 {float: left;}
+#dbsearchcenter {left: 50%; right: 50%; position: relative; margin-left: -120px;}
+#surnamesearch {border: 1px solid rgb(0,114,198); margin-bottom: 3px; display: inline; margin-left: 5px;}
+#dobsearch {border: 1px solid rgb(0,114,198); margin-bottom: 3px; display: inline; margin-left: 5px;}
+.header3 {text-align: center; font-family: 'Open Sans'; color: blue;}
+#search {padding: 16px 32px; border: 2px solid rgb(0,114,198); text-align: center; position: relative; display: inline block; font-size: 16px; color: white; background-color: rgb(0,114,198);  -webkit-transition-duration: 0.4s; transition-duration: 0.4s; cursor: pointer; margin: -80px; margin-top: 25px; border-radius: 5px; top: 50%; left: 50%;}
+#search:hover {background-color: white; color: rgb(0,114,198);}

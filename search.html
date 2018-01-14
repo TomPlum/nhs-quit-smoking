@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>NHS: Data Search</title>
+		<link rel="shortcut icon" href="images/favicon.png">
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen"/> 
+		<script type="text/javascript" src="filename.js"></script>
+		<meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
+        <link href="http://fonts.googleapis.com/css?family=Oswald|Open+Sans" rel="stylesheet" type="text/css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+	</head>
+	
+	<body>
+    		<div id="LogoHeader">
+            	<a href="index.html"><img id="logo" src="images/NHS Logo.png"></a>
+            </div>
+    	<div id="nav">
+        	<ul id="navul">
+            	<li class="navli"><a class="nava" href="index.html">HOME</a></li>
+                <li class="navli"><a class="nava" href="gallery.html">GALLERY</a></li>
+                <li class="navli"><a class="nava" href="stats.html">STATISTICS</a></li>
+                <li class="navli"><a class="nava" href="datacapture.html">DATA CAPTURE</a></li>
+                <li class="navli"><a class="nava-active" href="login.php">DATA SEARCH</a></li>
+            </ul>
+        </div>
+        <div id="content">
+        	<h1 class="header1">Login To Access Data Search</h1>
+            <div id="login-container">
+           	 	<form id="loginform" method="post" action="php/login.php">
+                	<p class="FieldHeading">Username:</p><br>
+            		<input type="text" class="loginfield" name="username" placeholder="E.g. MY1CRT" required><br>
+                    <p class="FieldHeading">Password:</p><br>
+                    <input type="password" class="loginfield" name="password" placeholder="E.g. 1506548" required><br>
+                    <button id="loginbutton" type="submit" name="login">Login</button>
+            	</form>
+            </div>
+        </div>
+	</body>
+	
+</html>
